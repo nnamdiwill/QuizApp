@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>QuizApp</title>
+</head>
+
+<body>
+    <header>
+        <h1><img src="/images/DocStrange.jpeg" alt="">
+            Marvel Comics Quiz
+        </h1>
+    </header>
+    <section class="intro">
+        <h2>This will test your Knowledge of Marvel Characters.</h2>
+        <button class="startQuiz"> Start Quiz</button>
+    </section>
+    <section class="questions">
+        <div class="image-wrapper">
+            <img src="/images/CapAmerica.jpeg" alt="">
+            <div class="image-caption">
+                Captain America
+            </div>
+        </div>
+
+        <div class="question-content">
+            What is Captain America's real name?
+        </div>
+        <div class="answer-content">
+            <input class="option" type="radio" value="0" name="option">Steve Rogers
+            <br>
+            <input class="option" type="radio" value="1" name="option">Bruce Banner
+            <br>
+            <input class="option" type="radio" value="2" name="option">Bruce Wayne
+            <br>
+        </div>
+
+    </section>
+    <section class="results">
+        <h2>Final Score</h2>
+        <h3 id="finalScore">7/10</h3>
+        <button id="tryAgain">Try Again</button>
+    </section>
+
+</body>
+
+</html>
