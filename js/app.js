@@ -43,8 +43,8 @@ var questionsArray = [
         questionText: "Who is the founder of the X-Men?",
         questionChoices: ["Magneto", "Reed Richards", "Charles Xavier"],
         questionCorrectChoice: 2,
-        questionImage: "Charles-x.jpg",
-        questionImageCaption: "Charles Xavier",
+        questionImage: "x-men.jpeg",
+        questionImageCaption: "The X-Men",
         correctDetails: "Charles Xavier is founder of the X-men."
     },
 //Question 6
@@ -79,7 +79,7 @@ var questionsArray = [
 
 //Question 9
     {
-        questionText: "What was Sam Wilson's job before becomng the Falcon/Capatain America?",
+        questionText: "What was Sam Wilson's job before becoming the Falcon/Capatain America?",
         questionChoices: ["Police Officer", "FireFighter", "Social Worker"],
         questionCorrectChoice: 2,
         questionImage: "Sam-Wilson-NewCapAmerica.png",
